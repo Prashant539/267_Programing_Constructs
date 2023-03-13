@@ -7,7 +7,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("Welcome to C# Programming");
             Console.WriteLine("Choose any options to perform");
-            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity");
+            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity\n4:LargestNumber");
             int options = Convert.ToInt32(Console.ReadLine());
             switch(options)
             {
@@ -22,6 +22,9 @@ namespace ProgrammingConstructs
                 case 3:
                     Vote vote = new Vote();
                     vote.VoteEligibility();
+                    break;
+                case 4:
+                    LargestNumber.LargestNumberPrint();
                     break;
             }
            
