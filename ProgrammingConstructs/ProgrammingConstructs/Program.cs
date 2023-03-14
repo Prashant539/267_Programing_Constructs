@@ -7,7 +7,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("Welcome to C# Programming");
             Console.WriteLine("Choose any options to perform");
-            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity\n4:LargestNumber\n6:WeekDays");
+            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity\n4:LargestNumber\n6:WeekDays\n7:ArithmeticOperations");
             int options = Convert.ToInt32(Console.ReadLine());
             switch(options)
             {
@@ -28,6 +28,9 @@ namespace ProgrammingConstructs
                     break;
                 case 6:
                     WeekDays.WeekDaysPrint();
+                    break;
+                case 7:
+                    ArithmeticOperations.ArithmeticOperationsPrint();
                     break;
             }
            
