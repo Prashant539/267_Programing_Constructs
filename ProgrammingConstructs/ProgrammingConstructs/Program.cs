@@ -7,7 +7,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("Welcome to C# Programming");
             Console.WriteLine("Choose any options to perform");
-            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity\n4:LargestNumber\n5:AdmissionEligibility\n6:WeekDays\n7:ArithmeticOperations\n8:PowerofTwo\n9:SumOfSquare");
+            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity\n4:LargestNumber\n5:AdmissionEligibility\n6:WeekDays\n7:ArithmeticOperations\n8:PowerofTwo\n9:SumOfSquare\n10:FactorialNumber");
             int options = Convert.ToInt32(Console.ReadLine());
             switch(options)
             {
@@ -41,6 +41,10 @@ namespace ProgrammingConstructs
                 case 9:
                     SumOfSquare sumOfSquare = new SumOfSquare();
                     sumOfSquare.PrintSumOfSquare();
+                    break;
+                case 10:
+                    FactorialNumber factorialNumber = new FactorialNumber();
+                    factorialNumber.PrintFactorialNumber();
                     break;
             }
            
