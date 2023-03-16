@@ -7,7 +7,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("Welcome to C# Programming");
             Console.WriteLine("Choose any options to perform");
-            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity\n4:LargestNumber\n5:AdmissionEligibility\n6:WeekDays\n7:ArithmeticOperations\n8:PowerofTwo\n9:SumOfSquare\n10:FactorialNumber");
+            Console.WriteLine("1:EqualOrNot\n2: EvenOrOdd\n3: VoteEligiblity\n4:LargestNumber\n5:AdmissionEligibility\n6:WeekDays\n7:ArithmeticOperations\n8:PowerofTwo\n9:SumOfSquare\n10:FactorialNumber\n11:FlipCoin");
             int options = Convert.ToInt32(Console.ReadLine());
             switch(options)
             {
@@ -46,6 +46,11 @@ namespace ProgrammingConstructs
                     FactorialNumber factorialNumber = new FactorialNumber();
                     factorialNumber.PrintFactorialNumber();
                     break;
+                case 11:
+                    FlipCoin flipCoin = new FlipCoin();
+                    flipCoin.Flip();
+                    break;
+
             }
            
         }
