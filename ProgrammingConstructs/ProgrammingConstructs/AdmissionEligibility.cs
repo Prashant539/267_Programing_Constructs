@@ -21,7 +21,14 @@ namespace ProgrammingConstructs
             {
                 Console.WriteLine("Candidate is eligible for admission");
             }
-            else if (m == 100) ;
+            else if ((m + p >= 140 || m + c >= 140 ))
+            {
+                Console.WriteLine("Candidate is eligible for admission");
+            }
+            else
+            {
+                Console.WriteLine("Candidate is not eligible for admission");
+            }
         }
     }
 }
